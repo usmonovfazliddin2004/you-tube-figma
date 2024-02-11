@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="header_container container">
+            <a href="#" class="logo">Feane</a>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li class="list"><a href="#hero" class="active">Home</a></li>
+                    <li class="list"><a href="#menu">Menu</a></li>
+                    <li class="list"><a href="#about">About</a></li>
+                    <li class="list"><a href="#book">Book Table</a></li>
+                    <i class='bx bx-x close_icon'></i>
+                </ul>
+                <i class='bx bx-menu toggle_icon'></i>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero_container container swiper">
+            <div class="swiper-wrapper">
+                <div class="hero_content-item swiper-slide">
+                    <h1>Fast Food Restaurant</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit rerum et nihil, <br> eveniet dolorem officia sunt commodi dicta voluptate cum accusamus fugit excepturi ex autem <br> reprehenderit adipisci? Ea, suscipit. Lorem ipsum dolor, sit amet consectetur.</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="hero_content-item swiper-slide">
+                    <h1>Fast Food Restaurant</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit rerum et nihil, <br> eveniet dolorem officia sunt commodi dicta voluptate cum accusamus fugit excepturi ex autem <br> reprehenderit adipisci? Ea, suscipit. Lorem ipsum dolor, sit amet consectetur.</p>
+                    <button class="btn">Order Now</button>
+                </div>
+                <div class="hero_content-item swiper-slide">
+                    <h1>Fast Food Restaurant</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi odit rerum et nihil, <br> eveniet dolorem officia sunt commodi dicta voluptate cum accusamus fugit excepturi ex autem <br> reprehenderit adipisci? Ea, suscipit. Lorem ipsum dolor, sit amet consectetur.</p>
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="offer_container container">
+            <div class="offer_item">
+                <div class="offer_imgBox">
+                    <img src="./image/o1.jpg" alt="#" class="img_fluid">
+                </div>
+                <div class="offer_content">
+                    <h3>Tasty Thursdays</h3>
+                    <span class="off"><b>20%</b>off</span>
+                    <button class="btn">
+                        <span>Order Now</span>
+                        <i class='bx bxs-cart'></i>
+                    </button>
+                </div>
+            </div>
+            <div class="offer_item">
+                <div class="offer_imgBox">
+                    <img src="./image/o2.jpg" alt="#" class="img_fluid">
+                </div>
+                <div class="offer_content">
+                    <h3>Pizza Thursdays</h3>
+                    <span class="off"><b>15%</b>off</span>
+                    <button class="btn">
+                        <span>Order Now</span>
+                        <i class='bx bxs-cart'></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="food" id="menu">
+        <h2 class="section_title">Our Menu</h2>
+
+        <ul>
+            <li class="filter active" data-filter="all">All</li>
+            <li class="filter" data-filter=".burger">Burger</li>
+            <li class="filter" data-filter=".pizza">Pizza</li>
+            <li class="filter" data-filter=".pasta">Pasta</li>
+            <li class="filter" data-filter=".fries">Fries</li>
+        </ul>
+        <div class="food_container container">
+            <div class="food_item pizza">
+                <div class="food_imgBox">
+                    <img src="./image/f1.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>20%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item burger">
+                <div class="food_imgBox">
+                    <img src="./image/f2.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Burger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>10%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item pizza">
+                <div class="food_imgBox">
+                    <img src="./image/f3.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>10%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item pasta">
+                <div class="food_imgBox">
+                    <img src="./image/f4.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>15%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item fries">
+                <div class="food_imgBox">
+                    <img src="./image/f5.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Fries</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>24%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item pizza">
+                <div class="food_imgBox">
+                    <img src="./image/f6.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>22%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item burger">
+                <div class="food_imgBox">
+                    <img src="./image/f7.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Burger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>22%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item burger">
+                <div class="food_imgBox">
+                    <img src="./image/f8.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Burger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>18%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="food_item pasta">
+                <div class="food_imgBox">
+                    <img src="./image/f9.png" alt="#" class="img_fluid">
+                </div>
+                <div class="food_content">
+                    <h3>Delicious Pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos sapiente perspiciatis rem qui maxime quas repellat accusamus, dolores obcaecati!</p>
+                    <div class="food_footer">
+                        <span>16%</span>
+                        <a href="#" class="icon"><i class='bx bxs-cart'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn">View More</button>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about_container container">
+            <div class="about_imgBox">
+                <img src="./image/about-img.png" alt="#" class="img_fluid">
+            </div>
+            <div class="about_content">
+                <h2 class="section_title">We Are Feane</h2>
+                <p>There are many variations of passages of Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste nemo voluptas officiis ad, et autem dolorem quo, deserunt laborum quidem a tempora error reiciendis nisi, sequi ea necessitatibus ab.</p>
+                <br><br>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="book" id="book">
+        <h2 class="section_title">Book A Table</h2>
+
+        <div class="book_container container">
+            <div class="form_container">
+                <input type="text" placeholder="Your Name">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Your Email">
+                <div class="select">
+                    <span>How many persone?</span>
+                    <ul class="list">
+                        <li data-value class="option">How many person?</li>
+                        <li data-value class="option">1</li>
+                        <li data-value class="option">2</li>
+                        <li data-value class="option">3</li>
+                        <li data-value class="option">4</li>
+                        <li data-value class="option">5</li>
+                    </ul>
+                </div>
+                <input type="date">
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="map_container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101632.83137286473!2d67.23254688699348!3d37.24709105672293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f352e173b0cde4d%3A0xa31265ffc41a5d36!2z0KLQtdGA0LzQtdC3LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1704297850506!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="client">
+        <h2 class="section_title">What Says Our Customers</h2>
+
+        <div class="client_container container swiper">
+            <div class="swiper-wrapper">
+                <div class="client_item swiper-slide">
+                    <div class="client_content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolores quisquam eligendi modi, libero placeat.</p>
+                        <h3>Moana Michell</h3>
+                        <span>magna aliqua</span>
+                    </div>
+                    <div class="client_img">
+                        <img src="./image/client1.jpg" alt="#" class="img_fluid">
+                    </div>
+                </div>
+                <div class="client_item swiper-slide">
+                    <div class="client_content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolores quisquam eligendi modi, libero placeat.</p>
+                        <h3>Mike Hamell</h3>
+                        <span>magna aliqua</span>
+                    </div>
+                    <div class="client_img">
+                        <img src="./image/client2.jpg" alt="#" class="img_fluid">
+                    </div>
+                </div>
+                <div class="client_item swiper-slide">
+                    <div class="client_content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolores quisquam eligendi modi, libero placeat.</p>
+                        <h3>Mike Hamell</h3>
+                        <span>magna aliqua</span>
+                    </div>
+                    <div class="client_img">
+                        <img src="./image/client1.jpg" alt="#" class="img_fluid">
+                    </div>
+                </div>
+                <div class="client_item swiper-slide">
+                    <div class="client_content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolores quisquam eligendi modi, libero placeat.</p>
+                        <h3>Mike Hamell</h3>
+                        <span>magna aliqua</span>
+                    </div>
+                    <div class="client_img">
+                        <img src="./image/client2.jpg" alt="#" class="img_fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <section class="footer">
+<div class="footer_container container">
+<div class="footer_content">
+    <h3>Contact Us</h3>
+    <ul>
+        <li><i class='bx bxs-location-plus'></i></li>
+        <li><i class='bx bxs-location-plus'></i></li>
+    </ul>
+</div>
+</div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./jss/main.js"></script>   
+</body>
+</html>
